@@ -1,0 +1,190 @@
+.video-grid-swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.swiper-slide {
+    height: calc((100% - 30px) / 2) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    left: 0;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    background: linear-gradient(90deg, rgba(10, 14, 18, 0.20) 45.35%, rgba(10, 14, 18, 0.00) 88.03%), linear-gradient(60deg, #0A0E12 2.51%, rgba(10, 14, 18, 0.00) 90.2%);
+    backdrop-filter: blur(0.75px);
+    z-index: 2;
+}
+
+.swiper-button-next {
+    left: 75%;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    background: linear-gradient(358deg, rgba(10, 14, 18, 0.20) 1.44%, rgba(10, 14, 18, 0.00) 94.71%), linear-gradient(243deg, #0A0E12 3.44%, rgba(10, 14, 18, 0.00) 68.4%);
+    backdrop-filter: blur(0.75px);
+    z-index: 2;
+}
+
+.swiper-button-disabled { 
+    opacity: 0 !important;
+} 
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.hero-slide {
+    width: 607px !important;
+    height: 350px !important;
+    margin-top: 75px;
+    background: linear-gradient(110deg, rgba(0, 0, 0, 0.32) 12.58%, rgba(0, 0, 0, 0.50) 97.99%), lightgray 50% / cover no-repeat;
+    filter: blur(0.5px);
+}
+  
+.hero-slide.swiper-slide-active {
+    margin-top: 0;
+    width: 832px !important;
+    height: 500px !important;
+    background-color: #202020;
+    border-radius: 4px;
+    z-index: -1;
+    padding: 12px; 
+}
+
+.hero-slide.swiper-slide-active > img {
+    border-radius: 4px;
+}
+
+.hero-slide.swiper-slide-active::before{
+    content: '';
+    width: 398px;
+    height: 500px;
+    background-image: url("../../../assets/hero-carousel/active-slider-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-carousel > .swiper-wrapper {
+    height: 536px !important;
+    justify-content: center;
+    gap: 40px;
+}
+
+.swiper-pagination-bullets {
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 26px;
+    height: 3px;
+    background: #3F474F;
+    border-radius: unset;
+}
+
+.swiper-pagination-bullet-active {
+    background:  #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .hero-slide {
+        width: 187px !important;
+        height: 108px !important;
+        margin-top: 59px;
+    }
+
+    .hero-carousel > .swiper-wrapper {
+        height: 263px !important;
+        gap: 10px;
+    }
+
+    .hero-slide.swiper-slide-active {
+        width: 378px !important;
+        height: 227px !important;
+        margin-top: 0;
+        padding: 5px; 
+    }
+
+    .hero-slide.swiper-slide-active::before{
+        width: 181px;
+        height: 227px;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-button-prev {
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, 50%);
+        height: fit-content;
+        width: fit-content;
+        background: none;
+        filter: none;
+    }
+    
+    .swiper-button-next {
+        top: 50%;
+        left: 90%;
+        transform: translate(-50%, 50%);
+        height: fit-content;
+        width: fit-content;
+        background: none;
+        filter: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-slide {
+        margin-top: 49px;
+        width: 156px !important;
+        height: 90px !important;
+    }
+
+    .hero-slide.swiper-slide-active {
+        margin-top: 0;
+        width: 315px !important;
+        height: 189px !important;
+        padding: 4px; 
+    }
+
+    .hero-slide.swiper-slide-active::before{
+        width: 151px;
+        height: 189px;
+    }
+
+    .swiper-pagination { 
+        bottom: 40px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-slide.swiper-slide-active {
+        width: calc(100% - 40px) !important;
+        padding: 3px; 
+    }
+
+    .hero-carousel > .swiper-wrapper {
+        height: 220px !important;
+    }
+
+    .hero-carousel > .swiper-wrapper {
+        gap: 3px;
+    }
+
+    .swiper-pagination { 
+        bottom: 0 !important;
+    }
+}
