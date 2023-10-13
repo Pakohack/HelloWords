@@ -1,0 +1,30 @@
+<svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="27" height="26" fill="#F5F5F5"/>
+<g id="Main">
+<path d="M-2319 -4892C-2319 -4893.1 -2318.1 -4894 -2317 -4894H933C934.104 -4894 935 -4893.1 935 -4892V382C935 383.104 934.104 384 933 384H-2317C-2318.1 384 -2319 383.104 -2319 382V-4892Z" fill="#0A86EF" fill-opacity="0.2"/>
+<g id="Main Phone" clip-path="url(#clip0_0_1)">
+<rect width="375" height="5078" transform="translate(-199 -4794)" fill="#0A0E12"/>
+<g id="4">
+<g id="footer">
+<g id="top">
+<g id="top_2">
+<g id="social media">
+<g id="entypo-social:youtube" clip-path="url(#clip1_0_1)">
+<path id="Vector" d="M13.125 2.98999C0.3486 2.98999 0.125 4.12619 0.125 13C0.125 21.8738 0.3486 23.01 13.125 23.01C25.9014 23.01 26.125 21.8738 26.125 13C26.125 4.12619 25.9014 2.98999 13.125 2.98999ZM17.2915 13.4342L11.4545 16.159C10.9436 16.3956 10.525 16.1304 10.525 15.5662V10.4338C10.525 9.87089 10.9436 9.60439 11.4545 9.84099L17.2915 12.5658C17.8024 12.805 17.8024 13.195 17.2915 13.4342Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="375" height="5078" fill="white" transform="translate(-199 -4794)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="26" height="26" fill="white" transform="translate(0.125)"/>
+</clipPath>
+</defs>
+</svg>
